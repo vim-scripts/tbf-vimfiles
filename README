@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=996
+
+A random collection of vim files I use. Containing syntax files for C, C# and Java featuring syntax based folding support. Also contains highlighting for doxygen comments in C and C#. And contains a simple syntax highligher for NSIS.
+
+Usage for folding in C, C++, C# and Java: First of all { code blocks; }  are recognized. Should cover most language constructs, like classes, functions, branches, loops. Additonally explicitly defined regions are supported. In C# you use pairs for "#region/#endregion" pragmas for that purpose. In C (and C++) explicit regions are marked by "/* region */" and "/* endregion */". The region markers for Java are "// region" and "//endregion".
+
+
